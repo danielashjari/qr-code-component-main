@@ -1,5 +1,21 @@
 $card-bg: white;
-$t-color: hsl(212, 45%, 89%);
-$bg-color: hsl(220, 15%, 55%);
-$qr-bg: hsl(218, 44%, 22%);
+$bg-color: hsl(212, 45%, 89%);
+$t-color: hsl(220, 15%, 55%);
+$h-color: hsl(218, 44%, 22%);
 $link-color:hsl(228, 45%, 44%);
+
+h2{
+    font-weight: 700;
+    text-align: center;
+    margin-left: 0.75rem;
+    margin-right: 0.75rem;
+    color: $h-color;
+}
+
+p{
+    text-align: center;
+    font-weight: 400;
+    color: $t-color;
+    margin-left: 0.75rem;
+    margin-right: 0.75rem;
+}

@@ -7,8 +7,51 @@ ol {
   font-weight: 0;
 }
 
+h2 {
+  font-weight: 700;
+  text-align: center;
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
+  color: #1f3251;
+}
+
+p {
+  text-align: center;
+  font-weight: 400;
+  color: #7b879d;
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
+}
+
 body {
-  font-family: "outfit" sans-serif;
+  font-family: "outfit", sans-serif;
+  font-size: 15px;
+  background-color: #d6e2f0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-width: 360px;
+}
+
+body .card {
+  padding: 1rem;
+  margin: 10vh 35vw;
+  background-color: white;
+  border-radius: 0.75rem;
+  width: 18rem;
+  height: 30rem;
+}
+
+body .card .QRcode img {
+  border-radius: 0.75rem;
+  width: 100%;
 }
 
 body footer .attribution {

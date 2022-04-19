@@ -1,5 +1,27 @@
 body {
-    font-family: "outfit" sans-serif;
+    font-family: "outfit", sans-serif;
+    font-size: 15px;
+    background-color: $bg-color;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-width: 360px;
+
+    .card {
+        padding: 1rem;
+        margin: 10vh 35vw;
+        background-color: $card-bg;
+        border-radius: 0.75rem;
+        width: 18rem;
+        height: 30rem;
+
+        .QRcode {
+            img {
+                border-radius: 0.75rem;
+                width: 100%;
+            }
+        }
+    }
 
     footer {
         .attribution {
